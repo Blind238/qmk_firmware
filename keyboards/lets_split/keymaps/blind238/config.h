@@ -34,4 +34,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define _MASTER_RIGHT
 // #define EE_HANDS
 
+// Fix for broken column pin, using another pin
+#undef MATRIX_COL_PINS
+#define MATRIX_COL_PINS { F6, F7, B1, F5, B2, B6 }
+
 #endif
